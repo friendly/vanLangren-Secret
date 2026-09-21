@@ -1,0 +1,19 @@
+# RStudio / R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# Quarto build artifacts
+.quarto/
+*.knit.md
+vanLangren-Secret_files/
+vanLangren-Secret.html
+vanLangren-Secret.docx
+
+# Private editorial correspondence -- not for the public repo
+editing-notes/
+
+# OS cruft
+Thumbs.db
+.DS_Store

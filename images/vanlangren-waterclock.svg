@@ -1,0 +1,111 @@
+<svg viewBox="0 0 1800 1150" xmlns="http://www.w3.org/2000/svg" font-family="Georgia, 'Times New Roman', serif">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b1f3a"/>
+      <stop offset="100%" stop-color="#1c3a63"/>
+    </linearGradient>
+    <linearGradient id="waterFull" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fb3c9"/>
+      <stop offset="100%" stop-color="#2f6a86"/>
+    </linearGradient>
+    <linearGradient id="waterEmpty" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#eef3f6"/>
+      <stop offset="100%" stop-color="#dbe6ec"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="1800" height="1150" fill="#f7f3e9"/>
+
+  <!-- Title -->
+  <text x="900" y="70" text-anchor="middle" font-size="42" font-weight="bold" fill="#1c1c1c">Van Langren's Water-Clock Method for Longitude (1634)</text>
+  <text x="900" y="108" text-anchor="middle" font-size="22" font-style="italic" fill="#555">Two identical copper vessels, timed against a star's return to the meridian</text>
+
+  <!-- Sky banner -->
+  <rect x="80" y="150" width="1640" height="290" rx="10" fill="url(#sky)"/>
+
+  <!-- vertical divider between the two panels -->
+  <line x1="900" y1="170" x2="900" y2="420" stroke="#3a5a80" stroke-width="1.5" stroke-dasharray="2,6"/>
+
+  <!-- LEFT PANEL: departure -->
+  <text x="120" y="200" font-size="24" fill="#f2e9d0">Departure: t = 0</text>
+
+  <!-- scattered background stars, left -->
+  <circle cx="200" cy="255" r="3.5" fill="#ffffff"/>
+  <circle cx="330" cy="230" r="3" fill="#ffffff"/>
+  <circle cx="650" cy="245" r="3" fill="#ffffff"/>
+  <circle cx="720" cy="300" r="3.5" fill="#ffffff"/>
+  <circle cx="260" cy="330" r="3" fill="#ffffff"/>
+
+  <!-- meridian line, left -->
+  <line x1="480" y1="225" x2="480" y2="400" stroke="#e0c25a" stroke-width="2" stroke-dasharray="6,5"/>
+  <text x="480" y="215" text-anchor="middle" font-size="17" fill="#e0c25a">meridian</text>
+  <!-- the reference star, sitting on the meridian at departure -->
+  <circle cx="480" cy="305" r="7" fill="#ffd97a" stroke="#fff3d0" stroke-width="2"/>
+
+  <text x="480" y="365" text-anchor="middle" font-size="19" fill="#f2e9d0">known star crosses meridian —</text>
+  <text x="480" y="390" text-anchor="middle" font-size="19" fill="#f2e9d0">start Vessel A</text>
+
+  <!-- RIGHT PANEL: later -->
+  <text x="960" y="200" font-size="24" fill="#f2e9d0">Later: unknown duration</text>
+
+  <!-- scattered background stars, right -->
+  <circle cx="1010" cy="245" r="3" fill="#ffffff"/>
+  <circle cx="1080" cy="300" r="3.5" fill="#ffffff"/>
+  <circle cx="1420" cy="235" r="3" fill="#ffffff"/>
+  <circle cx="1480" cy="310" r="3" fill="#ffffff"/>
+  <circle cx="1560" cy="270" r="3.5" fill="#ffffff"/>
+
+  <!-- meridian line, right -->
+  <line x1="1320" y1="225" x2="1320" y2="400" stroke="#e0c25a" stroke-width="2" stroke-dasharray="6,5"/>
+  <text x="1320" y="215" text-anchor="middle" font-size="17" fill="#e0c25a">meridian</text>
+  <!-- the reference star, back on the meridian -->
+  <circle cx="1320" cy="305" r="7" fill="#ffd97a" stroke="#fff3d0" stroke-width="2"/>
+
+  <text x="1320" y="365" text-anchor="middle" font-size="19" fill="#f2e9d0">star returns to meridian —</text>
+  <text x="1320" y="390" text-anchor="middle" font-size="19" fill="#f2e9d0">Vessel A now empty</text>
+
+  <!-- VESSEL A: draining (left) -->
+  <text x="380" y="500" text-anchor="middle" font-size="26" font-weight="bold" fill="#1c1c1c">Vessel A — draining</text>
+  <!-- cylinder body -->
+  <rect x="310" y="525" width="140" height="230" fill="url(#waterFull)" stroke="#1c1c1c" stroke-width="2.5"/>
+  <ellipse cx="380" cy="525" rx="70" ry="16" fill="#a9d3e2" stroke="#1c1c1c" stroke-width="2.5"/>
+  <!-- conical bottom -->
+  <polygon points="310,755 450,755 380,845" fill="url(#waterFull)" stroke="#1c1c1c" stroke-width="2.5"/>
+  <!-- draining drop -->
+  <polygon points="372,845 388,845 380,875" fill="#1c1c1c"/>
+  <circle cx="380" cy="895" r="5" fill="#2f6a86"/>
+
+  <!-- VESSEL A: empty (right) -->
+  <text x="1420" y="500" text-anchor="middle" font-size="26" font-weight="bold" fill="#1c1c1c">Vessel A — now empty</text>
+  <rect x="1350" y="525" width="140" height="230" fill="url(#waterEmpty)" stroke="#1c1c1c" stroke-width="2.5"/>
+  <ellipse cx="1420" cy="525" rx="70" ry="16" fill="#f4f8fa" stroke="#1c1c1c" stroke-width="2.5"/>
+  <polygon points="1350,755 1490,755 1420,845" fill="url(#waterEmpty)" stroke="#1c1c1c" stroke-width="2.5"/>
+
+  <!-- SHIP, enlarged, centered between the two vessels -->
+  <text x="900" y="500" text-anchor="middle" font-size="26" font-weight="bold" fill="#1c1c1c">at sea</text>
+  <g transform="translate(900,660)">
+    <!-- water shadow -->
+    <ellipse cx="0" cy="150" rx="150" ry="20" fill="#a9c6d6"/>
+    <!-- hull -->
+    <path d="M -140,90 L 140,90 L 105,150 L -105,150 Z" fill="#3e2a1a" stroke="#1c1c1c" stroke-width="3"/>
+    <!-- deck line -->
+    <line x1="-140" y1="90" x2="140" y2="90" stroke="#1c1c1c" stroke-width="3"/>
+    <!-- mast -->
+    <line x1="0" y1="90" x2="0" y2="-140" stroke="#1c1c1c" stroke-width="6"/>
+    <!-- main sail -->
+    <path d="M 6,-135 L 6,80 L 120,80 Z" fill="#d8c9a3" stroke="#1c1c1c" stroke-width="3"/>
+    <!-- foresail -->
+    <path d="M -6,-70 L -6,80 L -95,80 Z" fill="#e8ddc0" stroke="#1c1c1c" stroke-width="3"/>
+    <!-- flag -->
+    <path d="M 0,-140 L 45,-128 L 0,-116 Z" fill="#8a2e2e" stroke="#1c1c1c" stroke-width="2"/>
+  </g>
+
+  <!-- Explanation box -->
+  <rect x="80" y="935" width="1640" height="165" rx="8" fill="#efe9da" stroke="#c9beA0" stroke-width="1.5"/>
+  <text x="115" y="975" font-size="22" fill="#1c1c1c">1. At departure, note a known star crossing the meridian — start Vessel A draining.</text>
+  <text x="115" y="1010" font-size="22" fill="#1c1c1c">2. From the stars, the exact time it should take Vessel A to empty is already known.</text>
+  <text x="115" y="1045" font-size="22" fill="#1c1c1c">3. If the star returns to the meridian later or earlier than the vessel empties, the</text>
+  <text x="140" y="1075" font-size="22" fill="#1c1c1c">mismatch reveals how far east or west the ship has traveled — its longitude.</text>
+
+  <text x="900" y="1125" text-anchor="middle" font-size="17" font-style="italic" fill="#888">Diagram reconstructed from published translations — not a facsimile of Van Langren's coded original (1634).</text>
+</svg>
