@@ -16,3 +16,4 @@ editing-notes/
 # OS cruft
 Thumbs.db
 .DS_Store
+.positai
