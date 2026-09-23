@@ -3,7 +3,7 @@
 ![Page 8 of *La Verdadera Longitud por Mar y Tierra* (1644): van Langren's printed cipher.](images/verdadera-cipher.jpg)
 
 This repo holds the source and companion material for **"Van Langren's Secret, Finally Told,"**
-the story of how a 380-year-old cipher hidden in a 1644 navigation treatise was finally broken
+the story of how a nearly 400-year-old cipher hidden in a 1644 navigation treatise was finally broken
 in 2020 — and turned out to hide something stranger than anyone expected.
 
 - **Original version**: published as a blog post at
