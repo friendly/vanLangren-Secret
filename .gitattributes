@@ -1,0 +1,11 @@
+# Normalize line endings to LF for everything Git treats as text, overriding the
+# per-user core.autocrlf setting so checkouts are deterministic and the
+# "LF will be replaced by CRLF" warning stops firing.
+* text=auto eol=lf
+
+# Binary files: never touch line endings, never try to diff as text.
+*.docx binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
