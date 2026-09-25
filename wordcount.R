@@ -1,5 +1,10 @@
 # wordcount.R — word counts for a rendered .docx, by section and by category
 #
+# You wrote a brilliant article in 3,850 words, but your editor wants you to cut it
+# down to a 2,500-word budget. How do you count the words? What actually counts as a
+# word across the components of your Word file? Usually the budget means body copy,
+# not headings, captions, footnotes, tables or references; this script separates them.
+#
 # Counts what an editor actually receives (the .docx), not the Quarto / R Markdown
 # source, so YAML, code chunks, URLs, image paths and HTML-only content never
 # enter the count. Words are counted the way Word counts them: whitespace-separated
