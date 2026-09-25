@@ -47,6 +47,9 @@ def text_of(x, cat, out):
     elif t == "Math":  out["math"].append(" " + x["c"][1] + " ")
     elif t == "Note":  text_of(x["c"], "footnotes", out); out[cat].append(" ")
     elif t == "Code":  out[cat].append(x["c"][1])
+    elif t in ("Para", "Plain", "Header", "LineBlock"):
+        # paragraph-level elements (e.g. table cells, list items) end a word
+        text_of(x["c"], cat, out); out[cat].append(" ")
     else:
         c = x.get("c")
         if c is not None: text_of(c, cat, out)
