@@ -22,6 +22,10 @@ in 2020 — and turned out to hide something stranger than anyone expected.
   - `reproduce-langren-graph.R` — a ggplot2 reconstruction of van Langren's original 1644 graph
 - `cipher-transcription.txt` — the ciphertext, transcribed from page 8 of *La Verdadera Longitud
   por Mar y Tierra* (1644)
+- `wordcount.R`, `wordcount.py` — word counts of the rendered `.docx` by section and category
+  (body text vs. headings, footnotes, captions, tables, references), to check the piece against
+  the magazine's word budget. The R version is also a standalone gist:
+  [gist.github.com/friendly/a7c1b484ae484c53f9cbb16953d1ee4c](https://gist.github.com/friendly/a7c1b484ae484c53f9cbb16953d1ee4c)
 - `images/` — figures used in the article
 - `references.bib` — bibliography
 - `vanLangren-reference.docx` — Word reference template used when rendering to `.docx`

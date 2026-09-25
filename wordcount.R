@@ -34,6 +34,7 @@
 #   Rscript wordcount.R paper.docx [--style PullQuote="pull quotes"] [--level 2]
 #
 # Michael Friendly, 2026. MIT licence.
+# SPDX-License-Identifier: MIT
 
 # pandoc's own paragraph styles for docx output, mapped to categories
 default_styles <- c(
