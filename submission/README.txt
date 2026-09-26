@@ -34,7 +34,7 @@ figure-05.jpg  (fig-harrison)
 
 figure-06.pdf  (fig-reconstruction)
   vector PDF (any size)
-  A ggplot2 reconstruction of van Langren’s 1644 graph.
+  My ggplot2 reconstruction of van Langren’s 1644 graph.
 
 figure-07.pdf  (fig-scherer)
   vector PDF (any size)
