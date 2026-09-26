@@ -17,3 +17,10 @@ editing-notes/
 Thumbs.db
 .DS_Store
 .positai
+
+/.quarto/
+**/*.quarto_ipynb
+
+# Submission build outputs (rebuild: see submission/README.txt)
+submission/*.docx
+submission/figures/
