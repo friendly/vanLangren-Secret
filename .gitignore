@@ -21,6 +21,5 @@ Thumbs.db
 /.quarto/
 **/*.quarto_ipynb
 
-# Submission build outputs (rebuild: see submission/README.txt)
-submission/*.docx
-submission/figures/
+# Submission package for the editor (shared via Dropbox, not GitHub)
+submission/

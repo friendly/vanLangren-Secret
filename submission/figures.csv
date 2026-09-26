@@ -1,8 +1,0 @@
-number,label,source,caption
-1,"fig-1628-letter","images/vanLangren1628-graph.jpg","The graph from the undated 1628 letter: seven authorities’ estimates of the longitude difference between Toledo and Rome, plotted against a scale of degrees. Source: courtesy of Joaquín Ibáñez Ulargui, family archive"
-2,"fig-1644-overlay","images/Langren1644-google-overlay.jpg","van Langren’s 1644 graph showing 12 estimates of the longitude distance from Toledo to Rome by eminent astronomers, overlaid on a modern map. Map data © Google. Source: [@Friendly:2010:langren]."
-3,"fig-cipher-page","images/verdadera-cipher-Newberry-bw.png","The printed cipher from La Verdadera Longitud por Mar y Tierra (1644) page 8, exactly as van Langren’s readers first saw it. Source: Courtesy of The Newberry Library, Chicago. Ayer folio QB225 .L36 1644."
-4,"fig-waterclock","images/vanlangren-waterclock.png","How van Langren’s water-clock method was meant to determine longitude at sea."
-5,"fig-harrison","images/Harrison-H1-replica.jpg","A replica of Harrison’s H1 marine chronometer (original 1735), made by Herbert Davies c. 1962. Source: Daderot, Clockmakers’ Museum, London, via Wikimedia Commons (CC0)."
-6,"fig-reconstruction","vanLangren-Secret_files/figure-docx/fig-reconstruction-1.png","My ggplot2 reconstruction of van Langren’s 1644 graph."
-7,"fig-scherer","images/03_historical.png","Cédric Scherer’s ggplot2 version of van Langren’s graph, #30DayChartChallenge 2021, Day 3: Historical. Source: Cédric Scherer [@Scherer:2021]."
